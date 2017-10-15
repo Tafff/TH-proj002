@@ -1,0 +1,281 @@
+body {
+    width: 100%;
+    font-family: 'lato', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    text-align: center;
+}
+
+
+header img {
+    display: block;
+    margin: 0 auto;
+    padding-top: 70px;
+    width: 150px;
+    height: 50px;
+}
+
+
+header nav li {
+    display: inline-block;
+    font-size: 24px;
+    font-weight: 300;
+    padding-right: 20px; 
+    padding-bottom: 60px;
+}
+
+header nav li a {
+    text-decoration: none;
+    color: #2e64fe;
+    font-weight: 500;
+}
+
+header nav li a:hover {
+    cursor: pointer;
+    font-weight: 300;
+}
+  
+    
+section#cadastro form  { 
+    font-size: 20px;
+    width: 100%;
+    text-align: center;
+    color: #2e64fe;
+    display: block;
+    margin: 0 auto;
+}
+
+
+
+section#login .inicial form input {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #2e64fe; 
+    font-size: 18px;
+    color: #5882FA;
+}
+
+
+div #radio {
+    display:flex;
+    padding: 5px; 
+}
+
+#selecione {
+    display:inline-block;
+    padding: 20px;
+}
+        
+
+button {
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 20px 60px;
+    border-radius: 40px;
+    border: none;
+    font-size: 30px;
+    font-weight: 300;
+    color: #ddd;
+    background-color: #0B0B61;
+    box-shadow:0 4px 3px 0 #2EFE9A;
+    width: 50%;
+    text-decoration: none;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #0404B4;
+}
+
+
+section#login a#esqueci {
+    text-decoration: none;
+    color: darkslategray;
+    display: block;
+    padding-top: 5px;
+} 
+
+#esqueci:hover{
+    cursor: pointer;
+    font-weight: 300;
+}
+
+section#login {
+    background-image: url(im.ASA%20E%20NUVEM.jpeg);
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+
+p.reset {
+    font-size: 30px;
+    color: #0B0B61;
+    font-weight: 300;
+}
+
+section#retornar {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-image: url(im.AHV.por.do.sol.CGH.jpeg);
+    background-size: cover;
+}
+
+
+section#conheca h1 {
+    text-transform: uppercase;
+    font-weight: 300;
+    font-style: italic;
+    margin-top: 2px;
+    padding-top: 15px;
+}
+
+section#conheca p {
+    margin-left: 30px;
+    margin-right: 30px;
+    font-weight: 300;
+}
+
+section#conheca {
+    background-image: url(im.AHV.por.do.sol.CGH.jpeg);
+    padding-bottom: 0px;
+    background-size: cover;
+}
+
+
+section#cadastro {
+    background-color: #F3E2A9;
+}
+
+section#cadastro form input {
+    width: 80%;
+    text-align: left; 
+    font-size: 20px;
+}
+
+section#cadastro form {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+footer {
+    height: 50px;
+    background-color: #0B0B61;
+    color: #fff;
+    border:  1px solid #2EFE9A; 
+}
+
+
+section#anuncio {
+    background-image:url(i.cordilheira.jpeg);
+    background-size: cover;
+    width: 100%;
+    display: block;
+}
+
+section#anuncio h1 {
+    padding-top: 80px;
+    font-weight: 500;
+    font-style: italic;
+    font-size: 35px;   
+}
+
+
+section#anuncio form {
+    display: block;
+    padding-top: 150px;
+    padding-bottom: 60px;
+}
+
+section#anuncio form input {
+    width: 50%;
+    font-size: 15px;
+    padding-left: 20px;
+}
+
+#botao {
+    background-color: #0080FF;
+    border-radius: 40px;
+    border: none;
+    box-shadow: 0 2px 3px 0;
+    color: #BDBDBD;
+    padding: 20px 50px;
+    font-weight: 500
+}
+
+#botao:hover {
+    color: #5882FA;
+    cursor: pointer;
+}
+
+section#procurar {
+    background-image: url(i.ceu.arona.jpeg);
+    background-size: cover;
+    padding-top: 80px;
+    display: block;
+}
+
+section#procurar h1 {
+    font-style: italic;
+    font-weight: 500;
+    font-size: 35px;
+}
+
+section#procurar form {
+    display: block;
+    padding-bottom: 40px;
+    padding-top: 30px;
+}
+
+section#procurar form input {
+    width: 50%;
+    font-size: 15px;
+    padding-left: 20px;
+}
+
+
+
+
+
+
+
+
+
+::-webkit-input-placeholder {
+    color: #08088A;
+    font-family: 'lato', sans-serif;
+    font-weight: 300;
+    font-size: 18px;   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 600px) {
+    
+    section#conheca {
+        background-image:none;
+        background-color: #58ACFA;
+        font-weight: 500;
+    }
+    
+    
+    section#conheca {
+        margin: 2px;
+    }
+    
+    
+}
